@@ -8,7 +8,7 @@ This site is an honors project for NTD 2239 which will link up several reputable
 - BMI calculations (Height/Weight and Skinfold Calipers)
 
 ## Acknowledgements
-- Design help and consultation from my wife [Copper Koi Design](https://www.instagram.com/copper_koi_design)
+- With heavy help from [html5up](https://html5up.net/) to make designing under a time constraint less stressful
 
 ## License
 Copyright (c) 2022 Noah Owens
