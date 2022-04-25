@@ -26,7 +26,6 @@
 								<ul>
 									<li><a href="https://www.myplate.gov/">MyPlate</a></li>
 									<li><a href="https://www.nutrition.gov/">Nutrition.gov</a></li>
-                                    <li><a href="mailto:shiroitachistudio@gmail.com">Contact Me</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -53,16 +52,13 @@
 				<article id="main">
 
 					<header class="special container">
-						<span class="icon solid fa-chart-bar"></span>
-						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
+						<span class="icon solid fa-utensils"></span>
+						<h2>Looking for Recipes?</h2>
+						<p>Try out <a href="https://www.myplate.gov/myplate-kitchen/recipes">MyPlate kitchen</a>, a recipe site with hundreds of recipes indexed
 						<br />
-						I decided to give it a really creative name.</h2>
-						<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
+						by cost, and rated by real people who've made them in real life. Each one
 						<br />
-						it's minimally designed, fully responsive, built on HTML5/CSS3,
-						and, like all my stuff,
-						<br />
-						released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
+						also includes detailed nutrition information on each recipe, and serving sizes.
 					</header>
 
 					<!-- One -->
@@ -71,12 +67,22 @@
 								<div class="col-8 col-12-narrower">
 
 									<header>
-										<h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
+										<h2><a name="bmiAnchor">BMI Calculator</a></h2>
 									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
+										<label for="measurement">Choose one:</label>
+										<select id="measurement" name="measurement" class="calcSelect">
+											<option value="metric">Metric (cm, kg)</option>
+											<option value="imperial">Imperial (in, lbs)</option>
+										</select>
+										<br />
+										<label for="height">Height:</label>
+										<input type="text" name="height" id="height" class="calcText">
+										<label for="weight">Weight:</label>
+										<input type="text" name="weight" id="weight" class="calcText">
+										<h3>Your BMI <span id="bmi">will appear here</span>.</h3>
 									<footer>
-										<ul class="buttons">
-											<li><a href="#" class="button">Find Out More</a></li>
+										<ul class="buttons" id="btnCalc">
+											<li><a href="#bmiAnchor" class="button">Calculate BMI</a></li>
 										</ul>
 									</footer>
 
@@ -84,12 +90,12 @@
 								<div class="col-4 col-12-narrower imp-narrower">
 
 									<ul class="featured-icons">
-										<li><span class="icon fa-clock"><span class="label">Feature 1</span></span></li>
-										<li><span class="icon solid fa-volume-up"><span class="label">Feature 2</span></span></li>
-										<li><span class="icon solid fa-laptop"><span class="label">Feature 3</span></span></li>
-										<li><span class="icon solid fa-inbox"><span class="label">Feature 4</span></span></li>
-										<li><span class="icon solid fa-lock"><span class="label">Feature 5</span></span></li>
-										<li><span class="icon solid fa-cog"><span class="label">Feature 6</span></span></li>
+										<li><span class="icon solid fa-carrot"></span></li>
+										<li><span class="icon solid fa-fish"></span></li>
+										<li><span class="icon solid fa-bacon"></span></li>
+										<li><span class="icon solid fa-blender"></span></li>
+										<li><span class="icon solid fa-dumbbell"></span></li>
+										<li><span class="icon solid fa-pepper-hot"></span></li>
 									</ul>
 
 								</div>
@@ -102,101 +108,37 @@
 								<div class="col-4 col-12-narrower">
 
 									<section>
-										<span class="icon solid featured fa-check"></span>
+										<span class="icon solid featured fa-egg"></span>
 										<header>
-											<h3>This is Something</h3>
+											<h3>Nutrition.gov</h3>
 										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+										<p>The official US Department of Agriculture nutrition headquarters is a <a href="https://www.nutrition.gov/">website</a> that offers credible information and articles about healthy, sustainable eating.</p>
 									</section>
 
 								</div>
 								<div class="col-4 col-12-narrower">
 
 									<section>
-										<span class="icon solid featured fa-check"></span>
+										<span class="icon solid featured fa-paperclip"></span>
 										<header>
-											<h3>Also Something</h3>
+											<h3>DGA</h3>
 										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+										<p>The <a href="https://www.dietaryguidelines.gov/">Dietary Guidelines for Americans</a> for 2020-2025 are available! The DGA has been published every five years since 1980.</p>
 									</section>
 
 								</div>
 								<div class="col-4 col-12-narrower">
 
 									<section>
-										<span class="icon solid featured fa-check"></span>
+										<span class="icon solid featured fa-chart-pie"></span>
 										<header>
-											<h3>Probably Something</h3>
+											<h3>MyPlate</h3>
 										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+										<p>Check out <a href="https://www.myplate.gov/">MyPlate</a> for a modern take on the food pyramid. It is a visualization of an ideal healthful meal, accompanied by a helpful graphic.</p>
 									</section>
 
 								</div>
 							</div>
-						</section>
-
-					<!-- Three -->
-						<section class="wrapper style3 container special">
-
-							<header class="major">
-								<h2>Next look at this <strong>cool stuff</strong></h2>
-							</header>
-
-							<div class="row">
-								<div class="col-6 col-12-narrower">
-
-									<section>
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-										<header>
-											<h3>A Really Fast Train</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div>
-								<div class="col-6 col-12-narrower">
-
-									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>An Airport Terminal</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-6 col-12-narrower">
-
-									<section>
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Hyperspace Travel</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div>
-								<div class="col-6 col-12-narrower">
-
-									<section>
-										<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>And Another Train</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div>
-							</div>
-
-							<footer class="major">
-								<ul class="buttons">
-									<li><a href="#" class="button">See More</a></li>
-								</ul>
-							</footer>
-
 						</section>
 
 				</article>
@@ -205,15 +147,9 @@
 				<section id="cta">
 
 					<header>
-						<h2>Ready to do <strong>something</strong>?</h2>
-						<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+						<h2>I appreciate you taking a look at this!</h2>
+						<p>If you enjoyed it, maybe email me at <a href="mailto:shiroitachistudio@gmail.com">shiroitachistudio@gmail.com</a> and let me know what you liked, what you didn't, and any suggestions you might have.</p>
 					</header>
-					<footer>
-						<ul class="buttons">
-							<li><a href="#" class="button primary">Take My Money</a></li>
-							<li><a href="#" class="button">LOL Wut</a></li>
-						</ul>
-					</footer>
 
 				</section>
 
@@ -235,6 +171,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/calculator.js"></script>
 	</body>
 </html>

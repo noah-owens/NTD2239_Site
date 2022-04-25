@@ -176,6 +176,15 @@ input, select, textarea {
 		padding: 1em 0 1em 2em;
 	}
 
+	.calcText {
+		display: inline-block;
+		margin-bottom: 1em;
+	}
+
+	.calcSelect {
+		margin-bottom: 1.5em;
+	}
+
 /* Container */
 
 	.container {
@@ -2636,6 +2645,10 @@ input, select, textarea {
 
 		#cta header {
 			margin-bottom: 2em;
+		}
+
+		#cta a {
+			color: #fff;
 		}
 
 /* Footer */
